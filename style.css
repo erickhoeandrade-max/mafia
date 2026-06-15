@@ -1,1 +1,82 @@
+/* Reseta as margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Fundo escuro */
+    color: #ffffff; /* Letras brancas */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff9900; /* Laranja estilo Free Fire */
+    color: #121212;
+    padding: 2.5rem;
+    text-align: center;
+    border-bottom: 4px solid #cc7a00;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+h2 {
+    color: #ff9900;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: #ff9900;
+    color: #121212;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+#mostrarDica {
+    margin-top: 20px;
+    font-style: italic;
+    color: #ffda99;
+    font-size: 1.1rem;
+    min-height: 25px; /* Evita que o layout pule quando o texto aparecer */
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #0a0a0a;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 2rem;
+}
